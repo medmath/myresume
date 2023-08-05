@@ -1,65 +1,64 @@
 {
     "experience": [
-      {
-        "id": "exp1",
-        "jobTitle": "Web Developer",
-        "companyName": "Tech Solutions",
-        "location": "New York, NY",
-        "dateRange": "June 2019 - Present",
-        "responsibilities": [
-          "Developed and maintained responsive websites using HTML, CSS, and JavaScript.",
-          "Collaborated with designers to implement user interface components.",
-          "Optimized website performance for fast loading times."
-        ]
-      },
-      {
-        "id": "exp2",
-        "jobTitle": "Software Engineer",
-        "companyName": "InnovateTech",
-        "location": "San Francisco, CA",
-        "dateRange": "March 2017 - May 2019",
-        "responsibilities": [
-          "Designed and implemented software solutions for client projects.",
-          "Participated in code reviews and provided feedback to team members.",
-          "Worked on both front-end and back-end development tasks."
-        ]
-      },
-      {
-        "id": "exp3",
-        "jobTitle": "Front-End Developer",
-        "companyName": "WebTech Co.",
-        "location": "Austin, TX",
-        "dateRange": "July 2015 - February 2017",
-        "responsibilities": [
-          "Built interactive user interfaces using HTML, CSS, and JavaScript frameworks.",
-          "Worked closely with UX designers to create visually appealing web designs.",
-          "Implemented responsive design principles to ensure compatibility across devices."
-        ]
-      },
-      {
-        "id": "exp4",
-        "jobTitle": "Junior Developer",
-        "companyName": "CodeCrafters",
-        "location": "Seattle, WA",
-        "dateRange": "January 2014 - June 2015",
-        "responsibilities": [
-          "Assisted senior developers in building and testing software applications.",
-          "Troubleshooted and resolved bugs and technical issues.",
-          "Participated in training sessions to enhance technical skills."
-        ]
-      },
-      {
-        "id": "exp5",
-        "jobTitle": "Intern",
-        "companyName": "Digital Innovators",
-        "location": "Chicago, IL",
-        "dateRange": "May 2013 - August 2013",
-        "responsibilities": [
-          "Supported development team in various coding and testing tasks.",
-          "Gained hands-on experience with front-end and back-end development tools.",
-          "Contributed to documentation and knowledge sharing within the team."
-        ]
-      }
+        {
+            "id": "exp1",
+            "jobTitle": "Web Developer",
+            "companyName": "Tech Solutions",
+            "location": "New York, NY",
+            "dateRange": "June 2019 - Present",
+            "responsibilities": [
+                "Developed and maintained responsive websites using HTML, CSS, and JavaScript.",
+                "Collaborated with designers to implement user interface components.",
+                "Optimized website performance for fast loading times."
+            ]
+        },
+        {
+            "id": "exp2",
+            "jobTitle": "Software Engineer",
+            "companyName": "InnovateTech",
+            "location": "San Francisco, CA",
+            "dateRange": "March 2017 - May 2019",
+            "responsibilities": [
+                "Designed and implemented software solutions for client projects.",
+                "Participated in code reviews and provided feedback to team members.",
+                "Worked on both front-end and back-end development tasks."
+            ]
+        },
+        {
+            "id": "exp3",
+            "jobTitle": "Front-End Developer",
+            "companyName": "WebTech Co.",
+            "location": "Austin, TX",
+            "dateRange": "July 2015 - February 2017",
+            "responsibilities": [
+                "Built interactive user interfaces using HTML, CSS, and JavaScript frameworks.",
+                "Worked closely with UX designers to create visually appealing web designs.",
+                "Implemented responsive design principles to ensure compatibility across devices."
+            ]
+        },
+        {
+            "id": "exp4",
+            "jobTitle": "Junior Developer",
+            "companyName": "CodeCrafters",
+            "location": "Seattle, WA",
+            "dateRange": "January 2014 - June 2015",
+            "responsibilities": [
+                "Assisted senior developers in building and testing software applications.",
+                "Troubleshooted and resolved bugs and technical issues.",
+                "Participated in training sessions to enhance technical skills."
+            ]
+        },
+        {
+            "id": "exp5",
+            "jobTitle": "Intern",
+            "companyName": "Digital Innovators",
+            "location": "Chicago, IL",
+            "dateRange": "May 2013 - August 2013",
+            "responsibilities": [
+                "Supported development team in various coding and testing tasks.",
+                "Gained hands-on experience with front-end and back-end development tools.",
+                "Contributed to documentation and knowledge sharing within the team."
+            ]
+        }
     ]
-  }
-  
+}
