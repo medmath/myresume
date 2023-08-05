@@ -1,0 +1,26 @@
+{
+  "name": "y",
+  "version": "2.0.0",
+  "description": "\"My Experiences Api\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/medmath/myresume.git"
+  },
+  "keywords": [
+    "resume"
+  ],
+  "author": "mehmet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/medmath/myresume/issues"
+  },
+  "homepage": "https://github.com/medmath/myresume#readme",
+  "dependencies": {
+    "json-server": "^0.17.3"
+  }
+}
