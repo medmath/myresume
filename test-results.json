@@ -1,0 +1,134 @@
+{
+    "numFailedTestSuites": 0,
+    "numFailedTests": 0,
+    "numPassedTestSuites": 1,
+    "numPassedTests": 6,
+    "numPendingTestSuites": 0,
+    "numPendingTests": 0,
+    "numRuntimeErrorTestSuites": 0,
+    "numTodoTests": 0,
+    "numTotalTestSuites": 1,
+    "numTotalTests": 6,
+    "openHandles": [],
+    "snapshot": {
+        "added": 0,
+        "didUpdate": false,
+        "failure": false,
+        "filesAdded": 0,
+        "filesRemoved": 0,
+        "filesRemovedList": [],
+        "filesUnmatched": 0,
+        "filesUpdated": 0,
+        "matched": 0,
+        "total": 0,
+        "unchecked": 0,
+        "uncheckedKeysByFile": [],
+        "unmatched": 0,
+        "updated": 0
+    },
+    "startTime": 1691265621675,
+    "success": true,
+    "testResults": [
+        {
+            "assertionResults": [
+                {
+                    "ancestorTitles": [
+                        "My Test Suite"
+                    ],
+                    "duration": 74,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "My Test Suite GET request to JSON Server endpoint",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 2,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "GET request to JSON Server endpoint"
+                },
+                {
+                    "ancestorTitles": [
+                        "My Test Suite"
+                    ],
+                    "duration": 10,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "My Test Suite GET request to non-existent JSON Server endpoint",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 2,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "GET request to non-existent JSON Server endpoint"
+                },
+                {
+                    "ancestorTitles": [
+                        "My Test Suite"
+                    ],
+                    "duration": 8,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "My Test Suite Verify Company Name and Location",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 3,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "Verify Company Name and Location"
+                },
+                {
+                    "ancestorTitles": [
+                        "My Test Suite"
+                    ],
+                    "duration": 8,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "My Test Suite Verify Date Range",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 2,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "Verify Date Range"
+                },
+                {
+                    "ancestorTitles": [
+                        "My Test Suite"
+                    ],
+                    "duration": 8,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "My Test Suite Verify Responsibilities",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 2,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "Verify Responsibilities"
+                },
+                {
+                    "ancestorTitles": [
+                        "My Test Suite"
+                    ],
+                    "duration": 8,
+                    "failureDetails": [],
+                    "failureMessages": [],
+                    "fullName": "My Test Suite Verify Multiple Attributes",
+                    "invocations": 1,
+                    "location": null,
+                    "numPassingAsserts": 4,
+                    "retryReasons": [],
+                    "status": "passed",
+                    "title": "Verify Multiple Attributes"
+                }
+            ],
+            "endTime": 1691265622451,
+            "message": "",
+            "name": "/Users/vedatcakmaktepe/MYRESUME/myresume/test/example.test.js",
+            "startTime": 1691265621726,
+            "status": "passed",
+            "summary": ""
+        }
+    ],
+    "wasInterrupted": false
+}
