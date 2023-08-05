@@ -1,77 +1,120 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>My Personal Resume</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <header>
-      <h1>Mehmet Cakmaktepe</h1>
-      <nav>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    
-    <main>
-      <section id="about">
-        <h2>About Me</h2>
-        <p>Write a brief description of yourself and your career goals here.</p>
-      </section>
-      
-      <section id="experience">
-        <h2>Experience</h2>
-        <ul>
-          <li>
-            <h3>Job Title</h3>
-            <p>Company Name, City, State</p>
-            <p>Date range</p>
-            <ul>
-              <li>Responsibility 1</li>
-              <li>Responsibility 2</li>
-              <li>Responsibility 3</li>
-            </ul>
-          </li>
-        </ul>
-      </section>
-      
-      <section id="education">
-        <h2>Education</h2>
-        <ul>
-          <li>
-            <h3>Degree Name</h3>
-            <p>University Name, City, State</p>
-            <p>Date range</p>
-          </li>
-        </ul>
-      </section>
-      
-      <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-          <li>Skill 1</li>
-          <li>Skill 2</li>
-          <li>Skill 3</li>
-        </ul>
-      </section>
-      
-      <section id="contact">
-        <h2>Contact Me</h2>
-        <form>
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name">
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email">
-          <label for="message">Message:</label>
-          <textarea id="message" name="message"></textarea>
-          <input type="submit" value="Submit">
-        </form>
-      </section>
-    </main>
-  </body>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Resume</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Mehmet Cakmaktepe</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>My career goal is to continue leveraging my expertise to develop, contribute to innovative, and impactful
+        software projects in the field of development and quality assurance.</p>
+    </section>
+
+
+
+    <h1>Work Experience</h1>
+    <ul id="experience-list"></ul>
+    <div id="experience-details" style="display: none;"></div>
+
+    <script>
+      const experienceList = document.getElementById("experience-list");
+      const experienceDetails = document.getElementById("experience-details");
+
+
+      async function fetchExperience() {
+        const response = await fetch("http://localhost:3000/experience");
+        const data = await response.json();
+
+        data.forEach(experience => {
+          const li = document.createElement("li");
+          const link = document.createElement("a");
+          link.href = "#";
+          link.textContent = experience.jobTitle;
+          link.addEventListener("click", () => showExperienceDetails(experience));
+          li.appendChild(link);
+          experienceList.appendChild(li);
+        });
+      }
+
+
+      function showExperienceDetails(experience) {
+        experienceDetails.innerHTML = `
+          <h2>${experience.jobTitle}</h2>
+          <p>${experience.companyName}, ${experience.location}</p>
+          <p>${experience.dateRange}</p>
+          <ul>
+            ${experience.responsibilities.map(responsibility => `<li>${responsibility}</li>`).join("")}
+          </ul>
+        `;
+        experienceDetails.style.display = "block";
+      }
+
+
+      window.onload = fetchExperience;
+    </script>
+
+
+
+    <section id="education">
+      <h2>Education</h2>
+      <ul>
+        <li>
+          <h3>Bachelor's Degree</h3>
+          <p>METU, Turkey, Ankara Department of Mathematics</p>
+         
+        </li>
+      </ul>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>Java</li>
+        <li>JS</li>
+        <li>Java Spring Boot</li>
+        <li>Selenium</li>
+        <li>Postman</li>
+        <li>MySQL</li>
+        <li>PostgreSQL</li>
+        <li>Amazon DynamoDB</li>
+        <li>AWS</li>
+        <li>Maven</li>
+        <li>Rest Assured Library</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+  </main>
+</body>
+
 </html>

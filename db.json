@@ -2,62 +2,68 @@
     "experience": [
         {
             "id": "exp1",
-            "jobTitle": "Web Developer",
-            "companyName": "Tech Solutions",
-            "location": "New York, NY",
-            "dateRange": "June 2019 - Present",
+            "jobTitle": "QA Automation Engineer - Envestnet",
+            "companyName": "Envestnet",
+            "location": "Berwyn, PA",
+            "dateRange": "December 2021 - Present",
             "responsibilities": [
-                "Developed and maintained responsive websites using HTML, CSS, and JavaScript.",
-                "Collaborated with designers to implement user interface components.",
-                "Optimized website performance for fast loading times."
+                "* Worked as a QA Lead, overseeing testing activities and ensuring quality deliverables.",
+                "* Conducted API Testing using Postman, ensuring the functionality and reliability of APIs.",
+                "* Automated API-related test cases using Node.js and RestAssured library, enhancing testing efficiency and accuracy.",
+                "* Automated UI-related test cases using a JavaScript-based framework, improving UI testing processes.",
+                "* Developed a custom testing framework using Maven, Java, and JUnit to consume Kafka messages, enabling efficient testing of message processing."
             ]
         },
         {
             "id": "exp2",
-            "jobTitle": "Software Engineer",
-            "companyName": "InnovateTech",
-            "location": "San Francisco, CA",
-            "dateRange": "March 2017 - May 2019",
+            "jobTitle": "QA Automation Engineer - Michelin",
+            "companyName": "Michelin",
+            "location": "Greenville, SC",
+            "dateRange": "October 2019 - December 2021",
             "responsibilities": [
-                "Designed and implemented software solutions for client projects.",
-                "Participated in code reviews and provided feedback to team members.",
-                "Worked on both front-end and back-end development tasks."
+                "* Designed, developed, and implemented a Page Object Model (POM) based automation-testing framework using JavaScript and Sahi.",
+                "* Conducted Smoke Testing, Functional Testing, Regression Testing, Database Testing, and API Testing at different stages of the development and test cycles.",
+                "* Performed both UI and Backend Testing to ensure end-to-end system functionality.",
+                "* Utilized Amazon DynamoDB, Elastic Search, and MySQL in automation scripts for efficient data storage and retrieval.",
+                "* Created a JUnit framework with Java for DynamoDB data and implemented data validation processes.",
+                "* Developed a Maven-based framework using RestAssured library, Java, and JUnit to compare large XML files, ensuring data integrity and accuracy."
             ]
         },
         {
             "id": "exp3",
-            "jobTitle": "Front-End Developer",
-            "companyName": "WebTech Co.",
-            "location": "Austin, TX",
-            "dateRange": "July 2015 - February 2017",
+            "jobTitle": "SDET - Wells Fargo",
+            "companyName": "Wells Fargo",
+            "location": "Charlotte, NC",
+            "dateRange": "June 2019 – October 2019",
             "responsibilities": [
-                "Built interactive user interfaces using HTML, CSS, and JavaScript frameworks.",
-                "Worked closely with UX designers to create visually appealing web designs.",
-                "Implemented responsive design principles to ensure compatibility across devices."
+                "* Design different Mortgage Loan Scenarios.",
+                "* Design, develop and implement Page Object Model (POM) based automation-testing framework utilizing Java, Selenium WebDriver, TestNG, and Maven.",
+                "* Setup the Automation Framework using Selenium WebDriver to run test cases in multiple browsers and platforms."
             ]
         },
         {
             "id": "exp4",
-            "jobTitle": "Junior Developer",
-            "companyName": "CodeCrafters",
-            "location": "Seattle, WA",
-            "dateRange": "January 2014 - June 2015",
+            "jobTitle": "SDET - Book-IT",
+            "companyName": "Book-IT",
+            "location": "McLean, VA",
+            "dateRange": "September 2018 – May 2019",
             "responsibilities": [
-                "Assisted senior developers in building and testing software applications.",
-                "Troubleshooted and resolved bugs and technical issues.",
-                "Participated in training sessions to enhance technical skills."
+                "* Design, develop and implement Page Object Model (POM) based automation-testing framework utilizing Java, Selenium WebDriver, JUnit, Cucumber (Gherkin Language) and Maven.",
+                "* Setup the Automation Framework using Selenium WebDriver to run test cases in multiple browsers and platforms.",
+                "* Used BDD with Cucumber, Java and created feature files with a scenario and scenario outline as well as writing step definitions for behavior."
             ]
         },
         {
             "id": "exp5",
-            "jobTitle": "Intern",
-            "companyName": "Digital Innovators",
-            "location": "Chicago, IL",
-            "dateRange": "May 2013 - August 2013",
+            "jobTitle": "SDET - VyTrack",
+            "companyName": "VyTrack",
+            "location": "McLean, VA",
+            "dateRange": "March 2018 – September 2018",
             "responsibilities": [
-                "Supported development team in various coding and testing tasks.",
-                "Gained hands-on experience with front-end and back-end development tools.",
-                "Contributed to documentation and knowledge sharing within the team."
+                "* Assembled and maintained a Maven project written in Java to develop automated tests using TestNG.",
+                "* Used Selenium WebDriver, Java and Cucumber to design Automation test scenarios.",
+                "* Designed and documented REST/HTTP including JSON data formats and API versioning strategy with Rest-Assured.",
+                "* Developed and executed SQL queries to verify proper insertion, deletion, and updates."
             ]
         }
     ]

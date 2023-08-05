@@ -7,3 +7,5 @@ db.json created
 
   Home
   http://localhost:3000
+
+  npx json-server --watch db.json to watch   http://localhost:3000/experience
